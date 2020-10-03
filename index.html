@@ -1,0 +1,177 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>National Today - Homepage</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!--<link href="css/fa-custom-icons.css" rel="stylesheet" />-->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="content-wrapper">
+        <!--Nav section-->
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-content">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <ul class="navbar-right list-unstyled pull-right visible-xs user-item">
+                            <li><a href="#" class="user-item-link"><span class="fa fa-user"></span></a></li>
+                        </ul>
+                        <a class="navbar-brand" href="#">
+                            <img alt="National Today Final Logo" src="images/NationalTodayFinalLogo@1X.png">
+                        </a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-nav--menu-list navbar-right">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Topic</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Item 1</a></li>
+                                    <li><a href="#">Item 2</a></li>
+                                    <li><a href="#">Item 3</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Month</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Item 1</a></li>
+                                    <li><a href="#">Item 2</a></li>
+                                    <li><a href="#">Item 3</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Today</a></li>
+                            <li><a href="#">Tomorrow</a></li>
+                            <li><a href="#">Monday</a></li>
+                            <li class="sign-up-link"><a href="#">Sing Up</a></li>
+                            <li class="hidden-xs"><a href="#"><span class="fa fa-user"></span></a></li>
+                            <li><a href="#searchForm" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="searchForm"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                    <div id="searchForm" class="search-form collapse">
+                        <form name="searchForm" method="post">
+                            <div class="form-group">
+                                <input type="search" class="form-control" name="name" value="" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div><!-- /.container-fluid -->
+        </nav>
+        <!--Header section-->
+        <header>
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="images/7575526_National-Hamburger-Day@1X.png">
+                    <div class="hero">
+                        <div class="hero__inner">
+                            <div class="hero__content">
+                                <h2>National Hamburger Day</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elementum.
+                                    Fusce dictum hendrerit magna vitae consequat.
+                                </p>
+                                <a href="#" class="page-link">Read more</a>
+                            </div>
+                            <div class="hero__content-thumb">
+                                <div class="surround-border">
+                                    <div class="thumb-title">
+                                        <h3>Up Next</h3>
+                                    </div>
+                                    <div class="thumb-block">
+                                        <div class="thumb-image">
+                                            <img src="images/International-Day-for-the-Elimination-of-Violence-Against-Women@1X.png">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <p>International day for the elimination of violence against women</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="images/7575526_National-Hamburger-Day@1X.png">
+                    <div class="text">Caption Two</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="images/7575526_National-Hamburger-Day@1X.png">
+                    <div class="text">Caption Three</div>
+                </div>
+
+                <!-- Next and previous buttons -->
+                <div class="indicator-wrap">
+                    <a class="prev" onclick="plusSlides(-1)">
+                        <img src="images/Arrow_prev@1X.png">
+                    </a>
+                    <a class="next" onclick="plusSlides(1)">
+                        <img src="images/Arrow_next@1X.png">
+                    </a>
+                </div>
+
+            </div>
+        </header>
+        <!--Main section-->
+        <main>
+            <div class="content-display">
+                <h1>Celebrate</h1>
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#all" aria-controls="all" role="tab" data-toggle="tab">All</a></li>
+                    <li role="presentation"><a href="#surveys" aria-controls="surveys" role="tab" data-toggle="tab">Surveys</a></li>
+                    <li role="presentation"><a href="#listicles" aria-controls="listicles" role="tab" data-toggle="tab">Listicles</a></li>
+                    <li role="presentation"><a href="#quizes" aria-controls="quizes" role="tab" data-toggle="tab">Quizes</a></li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="all">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-4">
+                                <div class="text-intro">
+                                    <h2>Mauris venenatis condimentum purus, ac consectetur nulla dictum ultrices.</h2>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-4">
+                                <div class="body-content-thumb">
+                                    <div class="thumb-block">
+                                        <div class="thumb-image"></div>
+                                        <div class="thumb-content"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-4"></div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="surveys">...</div>
+                    <div role="tabpanel" class="tab-pane" id="listicles">...</div>
+                    <div role="tabpanel" class="tab-pane" id="quizes">...</div>
+                </div>
+
+            </div>
+        </main>
+
+        <!--Footer section-->
+        <footer></footer>
+    </div>
+    <script src="js/jquery-2.2.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/default.js"></script>
+</body>
+</html>

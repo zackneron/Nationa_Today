@@ -1,0 +1,436 @@
+﻿.fa {
+    display: inline-block;
+    background: center center no-repeat;
+    background-size: contain;
+}
+.fa-right {
+    display:block;
+    float: right;
+}
+.fa-left {
+    display:block;
+    float:left;
+}
+
+
+/*BACK ARROW*/
+.fa-arrow-left {
+    width: 14px;
+    height: 14px;
+    background-image: url('../images/fa-icons/arrow-left@2x.png');
+}
+
+
+/*CALCULATOR ICONS*/
+.fa-exclamation-circle {
+    width: 15px;
+    height: 15px;
+    background-image: url(../images/fa-icons/exclamation-circle-grey@2x.png);
+}
+
+.error-icon .fa-exclamation-triangle {
+    width: 30px;
+    height: 30px;
+    background-image: url(../images/fa-icons/exclamation-triangle@2x.png);
+}
+
+
+/*ALERT ICONS*/
+.fa-times {
+    width: 15px;
+    height: 15px;
+    background-image: url(../images/fa-icons/times@2x.png);
+}
+
+    .fa-times:hover {
+        opacity: 0.8;
+    }
+
+.alert .fa-exclamation-triangle {
+    width: 40px;
+    height: 38px;
+    background-image: url(../images/fa-icons/exclamation-triangle-grey@2x.png);
+}
+
+.alert-info .fa-exclamation-triangle {
+    background-image: url(../images/fa-icons/exclamation-triangle-blue@2x.png);
+}
+
+.alert-danger .fa-exclamation-triangle {
+    background-image: url(../images/fa-icons/exclamation-triangle-red@2x.png);
+}
+
+.alert-warning .fa-exclamation-triangle {
+    background-image: url(../images/fa-icons/exclamation-triangle-yellow@2x.png);
+}
+
+
+/*TOOLTIPS*/
+.fa-question-circle {
+    width: 13px;
+    height: 14px;
+    background-image: url(../images/fa-icons/question-circle@2x.png);
+}
+
+
+.fa-chevron-down {
+    width: 13px;
+    height: 9px;
+    background-image: url(../images/fa-icons/chevron-down@2x.png);
+}
+
+.fa-chevron-up {
+    width: 13px;
+    height: 9px;
+    background-image: url(../images/fa-icons/chevron-down@2x.png);
+    -o-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+/*WHITE DOUBLE CHEVRON*/
+/*.fa-chevron-double-down {
+    width: 14px;
+    height: 16px;
+    background-image: url(../images/fa-icons/chevron-double-down.png);
+    margin-top:1px;
+}
+
+.fa-chevron-double-up {
+    width: 14px;
+    height: 16px;
+    background-image: url(../images/fa-icons/chevron-double-down.png);
+    -o-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    margin-top:-3px;
+}*/
+
+.motivator-panel .fa-question-circle {
+    background-image: url(../images/fa-icons/question-circle-red@2x.png);
+}
+
+.motivator-panel.yellow .fa-question-circle {
+    background-image: url(../images/fa-icons/question-circle-yellow@2x.png);
+}
+
+.motivator-panel.green .fa-question-circle {
+    background-image: url(../images/fa-icons/question-circle-green@2x.png);
+}
+
+.fa-user {
+    vertical-align: top;
+    width: 14px;
+    height: 16px;
+    background-image: url(../images/fa-icons/user@2x.png);
+}
+
+.fa-asterisk {
+    width: 8px;
+    height: 9px;
+    background-image: url(../images/fa-icons/asterisk@2x.png);
+}
+
+.accordion-arrow.fa-angle-down {
+    width: 23px;
+    height: 14px;
+    background-image: url(../images/fa-icons/angle-down@2x.png);
+    top: 10px;
+}
+
+.accordion-arrow.fa-angle-up {
+    width: 23px;
+    height: 14px;
+    background-image: url(../images/fa-icons/angle-up@2x.png);
+    top: 10px;
+}
+
+.beneficiaries-table .fa-times {
+    background-image: url(../images/fa-icons/red-times.png);
+    width: 13px;
+    height: 13px;
+}
+
+.beneficiaries-table .fa-edit {
+    background-image: url(../images/fa-icons/edit_icon.png);
+    width: 20px;
+    height: 13px;
+    position: relative;
+    top: 2px;
+}
+
+#toast-container > .alert-warning {
+    background-image: url('../images/fa-icons/exclamation-triangle-yellow@2x.png') !important;
+}
+
+#toast-container .alert-info {
+    background-image: url('../images/fa-icons/info-icon@2x.png') !important;
+}
+
+#toast-container .alert-error {
+    background-image: url('../images/fa-icons/exclamation-triangle-red@2x.png') !important;
+}
+
+#toast-container .alert-success {
+    background-image: url('../images/fa-icons/exclamation-circle@2x.png') !important;
+}
+
+.fa-plus-circle, .fa-minus-circle {
+    width: 16px;
+    height: 17px;
+    position: relative;
+    top: 2px;
+}
+
+.fa-plus-circle {
+    background-image: url(../images/fa-icons/plus-circle@2x.png);
+}
+
+.fa-minus-circle {
+    background-image: url(../images/fa-icons/minus-circle@2x.png);
+}
+
+.fa-check {
+    width: 14px;
+    height: 14px;
+    background-image: url(../images/fa-icons/check-grey@2x.png);
+}
+.fa-info {
+    width: 14px;
+    height: 16px;
+    background-image: url(../images/fa-icons/info-icon@2x.png);
+    vertical-align: top;
+    margin-right: 2px;
+}
+.bg-warning .fa-warning {
+    width: 14px;
+    height: 16px;
+    background-image: url('../images/fa-icons/exclamation-triangle-yellow@2x.png');
+    background-size: contain;
+    vertical-align: top;
+    padding-right: 2px;
+}
+.bg-warning .fa-warning-red {
+    width: 14px;
+    height: 16px;
+    background-image: url('../images/fa-icons/exclamation-triangle-red.png');
+    background-size: contain;
+    vertical-align: top;
+    padding-right: 2px;
+}
+.fa-thumbs-down-red {
+    width: 20px;
+    height: 20px;
+    background-image: url('../images/fa-icons/thumbs-down@2x.png');
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.fa-counsellor-icon {
+    background-image: url('../images/graviton.png');
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 22px;
+    height: 26px;
+}
+.fa-info-small {
+    background-image: url('../images/fa-icons/info@2x.png');
+    width: 11px;
+    height:11px;
+    margin-right: 5px;
+    position: relative;
+    top: 1px;
+}
+.fa-check-circle-green {
+    width: 20px;
+    height: 20px;
+    background-image: url('../images/fa-icons/check-circle@2x.png');
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.fa-check-circle-complete {
+    width: 20px;
+    height: 20px;
+    background-image: url('../images/fa-icons/check_circle_24px.png');
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.fa-check-circle-green.small {
+    width: 10px;
+    height: 10px;
+}
+.fa-check-circle-complete.small {
+    width: 14px;
+    height: 14px;
+}
+.fa-big-check-circle {
+    background: url("../images/fa-icons/check-circle.png") no-repeat;
+    width: 40px;
+    height: 40px;
+    background-size: 100% 100%;
+}
+.fa-question-circle-white {
+    width: 13px;
+    height: 14px;
+    background-image: url('../images/fa-icons/question-circle-white@2x.png');
+}
+.fa-chevron-circle-blue {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    position: relative;
+    top: 3px;
+    background-image: url('../images/fa-icons/chevron-circle-right@2x.png');
+}
+.fa-chevron-circle-blue.small {
+    width: 10px;
+    height: 10px;
+    top: 1px;
+}
+.fa-green-check {
+    position: relative;
+    top: 3px;
+    width: 20px;
+    height: 15px;
+    background-image: url('../images/fa-icons/green-check.png');
+}
+.fa-red-times {
+    position: relative;
+    top: 3px;
+    width: 15px;
+    height: 15px;
+    background-image: url('../images/fa-icons/red-times.png');
+}
+.fa-yellow-exclaim {
+    position: relative;
+    top: 3px;
+    width: 17px;
+    height: 17px;
+    background-image: url('../images/fa-icons/exclamation-triangle@2x.png');
+}
+
+.fa-green-smile {
+    width: 20px;
+    height: 20px;
+    background-image: url('../images/fa-icons/icon-smile.png');
+}
+.fa-yellow-meh {
+    width: 20px;
+    height: 20px;
+    background-image: url('../images/fa-icons/icon-meh.png');
+}
+.fa-red-frown {
+    width: 20px;
+    height: 20px;
+    background-image: url('../images/fa-icons/icon-frown.png');
+}
+.fa-print {
+    width: 12px;
+    height: 12px;
+    background-image: url('../images/fa-icons/print@2x.png');
+    margin-right: 5px;
+}
+
+.fa-download-icon {
+    width: 16px;
+    height: 18px;
+    background-image: url('../images/fa-icons/download_24px@2x.png');
+}
+.fa-download-icon-primary {
+    width: 14px;
+    height: 16px;
+    background-image: url('../images/fa-icons/download-primary_24px@2x.png');
+}
+
+.fa-email-icon {
+    width: 16px;
+    height: 14px;
+    background-image: url('../images/fa-icons/email_24px@2x.png');
+}
+.fa-email-icon-primary {
+    width: 16px;
+    height: 14px;
+    background-image: url('../images/fa-icons/email-primary_24px@2x.png');
+}
+.fa-open-icon {
+    width: 17px;
+    height: 17px;
+    background-image: url('../images/fa-icons/open_in_new_24px@2x.png');
+}
+
+.fa-arrow_downward-icon {
+    width: 17px;
+    height: 17px;
+    background-image: url('../images/fa-icons/arrow_downward_24px@2x.png');
+}
+
+.fa-calendar_today-icon {
+    width: 17px;
+    height: 17px;
+    background-image: url('../images/fa-icons/calendar_today_24px@2x.png');
+}
+
+.fa-edit-icon-inactive {
+    width: 18px;
+    height: 18px;
+    background-image: url('../images/fa-icons/edit_24px@2x.png');
+}
+
+.fa-delete-icon-inactive {
+    width: 18px;
+    height: 18px;
+    background-image: url('../images/fa-icons/delete_24px@2x.png');
+}
+
+.fa-info-icon-inactive {
+    width: 12px;
+    height: 12px;
+    background-image: url('../images/fa-icons/info_24px@2x.png');
+}
+.fa-arrow_drop_down-icon-inactive {
+    width: 10px;
+    height: 5px;
+    background-image: url('../images/fa-icons/arrow_drop_down_24px@2x.png');
+}
+.fa-info-icon-primary {
+    width: 12px;
+    height: 12px;
+    background-image: url('../images/fa-icons/info_24px@2x_primary.png');
+}
+
+.fa-expand_more-icon-primary {
+    width: 12px;
+    height: 8px;
+    background-image: url('../images/fa-icons/expand_more_24px@2x.png');
+}
+.fa-expand_more-icon-inactive {
+    width: 12px;
+    height: 8px;
+    background-image: url('../images/fa-icons/expand_more-inactive_24px@2x.png');
+}
+
+.fa-remove_circle-icon-inactive {
+    width: 14px;
+    height: 14px;
+    background-image: url('../images/fa-icons/remove_circle_24px@2x.png');
+}
+
+.fa-notifications-icon-inactive {
+    width: 16px;
+    height: 20px;
+    background-image: url('../images/fa-icons/notifications-inactive_24px@2x.png');
+}
+
+.fa-document-icon-primary {
+    width: 20px;
+    height: 20px;
+    background-image: url('../images/fa-icons/document-primary_24px@2x.png');
+}
+
+.fa-card_membership-icon-primary {
+    width: 20px;
+    height: 20px;
+    background-image: url('../images/fa-icons/card_membership-primary_24px@2x.png');
+}

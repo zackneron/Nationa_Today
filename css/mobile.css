@@ -1,0 +1,31 @@
+@media (min-width: 0px) {
+    .navbar-brand > img {
+        max-height: 3.7rem;
+    }
+
+    .navbar-content {
+        
+    }
+    .dropdown-toggle:after {
+        right: 1.8rem;
+    }
+
+    .user-item {
+        position: absolute;
+        right: 8rem;
+        top: 1.2rem;
+    }
+    .user-item .user-item-link {
+        padding: 8px;
+        font-size: 2rem;
+        color: var(--black-color);
+    }
+
+    .navbar-default .navbar-nav > .dropdown > a:hover,
+    .navbar-default .navbar-nav > li > a:hover,
+    .navbar-default .navbar-nav > li > a:focus,
+    .navbar-default .navbar-nav > .open > a:focus {
+        background-color: var(--links-color);
+        color: var(--white-color);
+    }
+}

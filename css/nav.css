@@ -1,0 +1,39 @@
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+}
+.navbar-brand {
+	
+}
+
+.navbar-default .navbar-nav > li > a {
+	font-family: "Montserrat-SemiBold";
+	text-transform: uppercase;
+}
+
+.dropdown-toggle {
+	position: relative;
+}
+
+	.dropdown-toggle:after {
+		content: '';
+		background: url('../images/Arrow@1X.png');
+		width: 2rem;
+		height: 1.2rem;
+		position: absolute;
+		z-index: 2;
+		background-repeat: no-repeat;
+		background-position: right;
+		right: 1.5rem;
+		top: 1.4rem;
+		background-size: contain;
+	}
+
+.navbar-default .navbar-collapse {
+	 border-color: transparent; 
+}
+
+.navbar-default .navbar-nav > .dropdown > a,
+.navbar-default .navbar-nav > li > a:hover {
+	transition: all .3s linear;
+}
