@@ -14,7 +14,6 @@ select:focus::-ms-value {
 
 html,
 body {
-    font-family: "Montserrat-Medium";
     margin: 0;
     padding: 0;
 }
@@ -23,6 +22,8 @@ body {
     min-height: 100%;
     background-color: $white;
     font-size: var(--default-font-size);
+    font-family: "Montserrat-Medium";
+    color: var(--body-color);
 }
 
 a {
@@ -44,5 +45,31 @@ a:focus{
 }
 .page-link:hover,
 .page-link:focus{
+    color: var(--links-color);
+}
+
+.row {
+    margin: 0;
+}
+
+.nav-tabs {
+    border-bottom: none; 
+    margin-bottom: 2rem;
+}
+
+.nav-tabs > li > a {
+    font-size: 18px;
+    color: var(--border-color);
+}
+.nav-tabs > li > a:hover {
+    background-color: transparent;
+    border-color: transparent;
+    color: var(--links-color);
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+    border: 1px solid transparent;
     color: var(--links-color);
 }

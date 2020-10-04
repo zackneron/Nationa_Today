@@ -2,7 +2,6 @@
 <head>
     <title>National Today - Homepage</title>
     <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <!--<link href="css/fa-custom-icons.css" rel="stylesheet" />-->
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link href="css/styles.css" rel="stylesheet" />
 </head>
@@ -12,7 +11,6 @@
         <nav class="navbar navbar-default">
             <div class="container-fluid">
                 <div class="navbar-content">
-                    <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                             <span class="sr-only">Toggle navigation</span>
@@ -28,7 +26,6 @@
                         </a>
                     </div>
 
-                    <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-nav--menu-list navbar-right">
                             <li class="dropdown">
@@ -50,11 +47,11 @@
                             <li><a href="#">Today</a></li>
                             <li><a href="#">Tomorrow</a></li>
                             <li><a href="#">Monday</a></li>
-                            <li class="sign-up-link"><a href="#">Sing Up</a></li>
+                            <li class="sign-up-link"><a href="#">Sign Up</a></li>
                             <li class="hidden-xs"><a href="#"><span class="fa fa-user"></span></a></li>
                             <li><a href="#searchForm" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="searchForm"><i class="fa fa-search" aria-hidden="true"></i></a></li>
                         </ul>
-                    </div><!-- /.navbar-collapse -->
+                    </div>
                     <div id="searchForm" class="search-form collapse">
                         <form name="searchForm" method="post">
                             <div class="form-group">
@@ -63,17 +60,18 @@
                         </form>
                     </div>
                 </div>
-            </div><!-- /.container-fluid -->
+            </div>
         </nav>
         <!--Header section-->
         <header>
             <!-- Slideshow container -->
             <div class="slideshow-container">
-
-                <!-- Full-width images with number and caption text -->
                 <div class="mySlides fade">
-                    <div class="numbertext">1 / 3</div>
-                    <img src="images/7575526_National-Hamburger-Day@1X.png">
+                    <img src="images/7575526_National-Hamburger-Day@1X.png" class="mySlides-img" alt="">
+                    <div class="mySildes-date date">
+                        <span class="day">Mon</span>
+                        <span class="month">Nov 7</span>
+                    </div>
                     <div class="hero">
                         <div class="hero__inner">
                             <div class="hero__content">
@@ -90,9 +88,7 @@
                                         <h3>Up Next</h3>
                                     </div>
                                     <div class="thumb-block">
-                                        <div class="thumb-image">
-                                            <img src="images/International-Day-for-the-Elimination-of-Violence-Against-Women@1X.png">
-                                        </div>
+                                        <div class="thumb-image"></div>
                                         <div class="thumb-content">
                                             <p>International day for the elimination of violence against women</p>
                                         </div>
@@ -104,15 +100,69 @@
                 </div>
 
                 <div class="mySlides fade">
-                    <div class="numbertext">2 / 3</div>
-                    <img src="images/7575526_National-Hamburger-Day@1X.png">
-                    <div class="text">Caption Two</div>
+                    <img src="images/7575526_National-Hamburger-Day@1X.png" class="mySlides-img" alt="">
+                    <div class="mySildes-date date">
+                        <span class="day">Mon</span>
+                        <span class="month">Nov 12</span>
+                    </div>
+                    <div class="hero">
+                        <div class="hero__inner">
+                            <div class="hero__content">
+                                <h2>National Hamburger Day</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elementum.
+                                    Fusce dictum hendrerit magna vitae consequat.
+                                </p>
+                                <a href="#" class="page-link">Read more</a>
+                            </div>
+                            <div class="hero__content-thumb">
+                                <div class="surround-border">
+                                    <div class="thumb-title">
+                                        <h3>Up Next</h3>
+                                    </div>
+                                    <div class="thumb-block">
+                                        <div class="thumb-image"></div>
+                                        <div class="thumb-content">
+                                            <p>International day for the elimination of violence against women</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="mySlides fade">
-                    <div class="numbertext">3 / 3</div>
-                    <img src="images/7575526_National-Hamburger-Day@1X.png">
-                    <div class="text">Caption Three</div>
+                    <img src="images/7575526_National-Hamburger-Day@1X.png" class="mySlides-img" alt="">
+                    <div class="mySildes-date date">
+                        <span class="day">Mon</span>
+                        <span class="month">Nov 27</span>
+                    </div>
+                    <div class="hero">
+                        <div class="hero__inner">
+                            <div class="hero__content">
+                                <h2>National Hamburger Day</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elementum.
+                                    Fusce dictum hendrerit magna vitae consequat.
+                                </p>
+                                <a href="#" class="page-link">Read more</a>
+                            </div>
+                            <div class="hero__content-thumb">
+                                <div class="surround-border">
+                                    <div class="thumb-title">
+                                        <h3>Up Next</h3>
+                                    </div>
+                                    <div class="thumb-block">
+                                        <div class="thumb-image"></div>
+                                        <div class="thumb-content">
+                                            <p>International day for the elimination of violence against women</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- Next and previous buttons -->
@@ -130,9 +180,9 @@
         <!--Main section-->
         <main>
             <div class="content-display">
-                <h1>Celebrate</h1>
+                <h1 class="hidden-xs">Celebrate</h1>
                 <!-- Nav tabs -->
-                <ul class="nav nav-tabs" role="tablist">
+                <ul class="nav nav-tabs pull-right hidden-xs" role="tablist">
                     <li role="presentation" class="active"><a href="#all" aria-controls="all" role="tab" data-toggle="tab">All</a></li>
                     <li role="presentation"><a href="#surveys" aria-controls="surveys" role="tab" data-toggle="tab">Surveys</a></li>
                     <li role="presentation"><a href="#listicles" aria-controls="listicles" role="tab" data-toggle="tab">Listicles</a></li>
@@ -143,32 +193,218 @@
                 <div class="tab-content">
                     <div role="tabpanel" class="tab-pane active" id="all">
                         <div class="row">
-                            <div class="col-xs-12 col-sm-4">
+                            <div class="col-xs-12 visible-xs">
+                                <h1>Celebrate</h1>
+                            </div>
+                        </div>
+                        <!-- 1ST CONTENT ROW -->
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-3">
                                 <div class="text-intro">
                                     <h2>Mauris venenatis condimentum purus, ac consectetur nulla dictum ultrices.</h2>
                                 </div>
                             </div>
-                            <div class="col-xs-12 col-sm-4">
+                            <div class="col-xs-12 col-sm-5">
                                 <div class="body-content-thumb">
-                                    <div class="thumb-block">
-                                        <div class="thumb-image"></div>
-                                        <div class="thumb-content"></div>
+                                    <div class="thumb-image">
+                                        <img src="images/shopping@1X.png" alt="">
+                                        <div class="date">
+                                            <span class="day">Mon</span>
+                                            <span class="month">Nov 4</span>
+                                        </div>
+                                    </div>
+                                    <div class="thumb-content">
+                                        <h3>Are you a Black Friday pro?</h3>
+                                        <div class="details">
+                                            <span class="details-heading">Holiday: </span>
+                                            <span class="details-description">Black Friday</span>
+                                        </div>
+                                        <div class="details">
+                                            <span class="details-heading">Celebrate on: </span>
+                                            <span class="details-description">Mon, Nov 4th, 2018</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12 col-sm-4"></div>
+                            <div class="col-xs-12 col-sm-4">
+                                <div class="body-content-thumb">
+                                    <div class="thumb-image col-img-1">
+                                        <img src="images/cookie@1X.png" alt="">
+                                        <div class="date">
+                                            <span class="day">Mon</span>
+                                            <span class="month">Nov 5</span>
+                                        </div>
+                                    </div>
+                                    <div class="thumb-content">
+                                        <h3>What kind of cookie are you?</h3>
+                                        <div class="details">
+                                            <span class="details-heading">Holiday: </span>
+                                            <span class="details-description">National Cookie Day</span>
+                                        </div>
+                                        <div class="details">
+                                            <span class="details-heading">Celebrate on: </span>
+                                            <span class="details-description">Tues, Nov 5th, 2018</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 2ND CONTENT ROW -->
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-4">
+                                <div class="body-content-thumb">
+                                    <div class="thumb-image col-img-3">
+                                        <img src="images/CR-Electronics-InlineHero-Top-5-Cyber-Monday-Shopping-Tips-11-18@1X.png" alt="">
+                                        <div class="date">
+                                            <span class="day">Mon</span>
+                                            <span class="month">Nov 4</span>
+                                        </div>
+                                    </div>
+                                    <div class="thumb-content">
+                                        <h3>See our Cyber Monday survey results</h3>
+                                        <div class="details">
+                                            <span class="details-heading">Holiday: </span>
+                                            <span class="details-description">Cyber Monday</span>
+                                        </div>
+                                        <div class="details">
+                                            <span class="details-heading">Celebrate on: </span>
+                                            <span class="details-description">Mon, Nov 4th, 2018</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-4">
+                                <div class="body-content-thumb">
+                                    <div class="thumb-image col-img-3">
+                                        <img src="images/ice cream@1X.png" alt="">
+                                        <div class="date">
+                                            <span class="day">Mon</span>
+                                            <span class="month">Nov 7</span>
+                                        </div>
+                                    </div>
+                                    <div class="thumb-content">
+                                        <h3>What ice cream flavor are you?</h3>
+                                        <div class="details">
+                                            <span class="details-heading">Holiday: </span>
+                                            <span class="details-description">National Ice Cream Day</span>
+                                        </div>
+                                        <div class="details">
+                                            <span class="details-heading">Celebrate on: </span>
+                                            <span class="details-description">Thu, Nov 7th, 2018</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 3RD CONTENT ROW -->
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6">
+                                <div class="body-content-thumb">
+                                    <div class="thumb-image col-img-2">
+                                        <img src="images/giving@1X.png" alt="">
+                                        <div class="date">
+                                            <span class="day">Mon</span>
+                                            <span class="month">Nov 5</span>
+                                        </div>
+                                    </div>
+                                    <div class="thumb-content">
+                                        <h3>See our giving Tuesday survey results</h3>
+                                        <div class="details">
+                                            <span class="details-heading">Holiday: </span>
+                                            <span class="details-description">Giving Tuesday</span>
+                                        </div>
+                                        <div class="details">
+                                            <span class="details-heading">Celebrate on: </span>
+                                            <span class="details-description">Tues, Nov 5th, 2018</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6">
+                                <div class="body-content-thumb">
+                                    <div class="thumb-image col-img-2">
+                                        <img src="images/Chanukah@1X.png" alt="">
+                                        <div class="date">
+                                            <span class="day">Mon</span>
+                                            <span class="month">Nov 4</span>
+                                        </div>
+                                    </div>
+                                    <div class="thumb-content">
+                                        <h3>See our Chanukah survey results</h3>
+                                        <div class="details">
+                                            <span class="details-heading">Holiday: </span>
+                                            <span class="details-description">Chanukah</span>
+                                        </div>
+                                        <div class="details">
+                                            <span class="details-heading">Celebrate on: </span>
+                                            <span class="details-description">Mon, Nov 4th, 2018</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 4TH CONTENT ROW -->
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-3 col-sm-offset-3">
+                                <div class="body-content-thumb">
+                                    <div class="thumb-image col-img-1">
+                                        <img src="images/desserts@1X.png" alt="">
+                                        <div class="date">
+                                            <span class="day">Mon</span>
+                                            <span class="month">Nov 6</span>
+                                        </div>
+                                    </div>
+                                    <div class="thumb-content">
+                                        <h3>Mouthwatering desserts that will leave you drooling</h3>
+                                        <div class="details">
+                                            <span class="details-heading">Holiday: </span>
+                                            <span class="details-description">National Cookie Day</span>
+                                        </div>
+                                        <div class="details">
+                                            <span class="details-heading">Celebrate on: </span>
+                                            <span class="details-description">Mon, Nov 6th, 2018</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-3">
+                                <div class="body-content-thumb">
+                                    <div class="thumb-image">
+                                        <img src="images/kids@1X.png" alt="">
+                                        <div class="date">
+                                            <span class="day">Mon</span>
+                                            <span class="month">Nov 4</span>
+                                        </div>
+                                    </div>
+                                    <div class="thumb-content">
+                                        <h3>10 gifts to cheer up a single person</h3>
+                                        <div class="details">
+                                            <span class="details-heading">Holiday: </span>
+                                            <span class="details-description">National Singles Day</span>
+                                        </div>
+                                        <div class="details">
+                                            <span class="details-heading">Celebrate on: </span>
+                                            <span class="details-description">Tues, Nov 4th, 2018</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div role="tabpanel" class="tab-pane" id="surveys">...</div>
-                    <div role="tabpanel" class="tab-pane" id="listicles">...</div>
-                    <div role="tabpanel" class="tab-pane" id="quizes">...</div>
                 </div>
 
             </div>
         </main>
 
         <!--Footer section-->
-        <footer></footer>
+        <footer>
+            <div class="footer col-xs-12">
+                <a href="#">See More</a>
+            </div>
+        </footer>
     </div>
     <script src="js/jquery-2.2.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

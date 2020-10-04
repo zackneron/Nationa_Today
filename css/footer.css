@@ -1,0 +1,10 @@
+.footer {
+    border-top: 5px solid var(--border-color);
+    padding-top: 1.5rem;
+    text-align: right;
+    margin-bottom: 4rem;
+}
+
+.footer a {
+    color: var(--links-color);
+}

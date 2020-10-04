@@ -1,0 +1,55 @@
+.content-display {
+    margin-bottom: 6rem;
+}
+
+.content-display h1 {
+    color: var(--green-color);
+}
+.body-content-thumb {
+    margin-bottom: 3rem;
+}
+.body-content-thumb .thumb-image {
+    width: 100%;
+}
+.body-content-thumb .thumb-image img {
+    width: 100%;
+}
+
+.body-content-thumb .thumb-content h3 {
+    color: var(--heading-color);
+}
+.date {
+    background-color: var(--links-color);
+    position: absolute;
+    top: 0;
+    padding: .5rem 1.7rem 1rem .7rem;
+    line-height: 1;
+    color: var(--white-color);
+    text-transform: uppercase;
+}
+.day {
+    display: block;
+}
+.month {
+    font-family: 'Montserrat-Bold';
+    font-size: 2.2rem;
+}
+
+.details {
+    display: flex;
+}
+
+.details-heading {
+    font-family: 'Montserrat-Bold';
+    font-weight: 700;
+}
+.details-description {
+    margin-left: 1rem;
+}
+
+.thumb-block .thumb-image {
+    background-image: url(../images/International-Day-for-the-Elimination-of-Violence-Against-Women@1X.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
