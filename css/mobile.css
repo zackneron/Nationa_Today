@@ -107,5 +107,9 @@
     .body-content-thumb .thumb-content h3 {
         font-size: 2.2rem;
     }
+
+    .body-content-thumb .dessert-img {
+        height: 40vh;
+    }
     
 }

@@ -53,3 +53,7 @@
     background-repeat: no-repeat;
 }
 
+.body-content-thumb .dessert-img {
+    background: url(../images/desserts@1X.png) no-repeat;
+    background-position: top;
+}
